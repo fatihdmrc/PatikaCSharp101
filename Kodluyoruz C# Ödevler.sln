@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ödev4", "Ödev4\Ödev4.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ödev5", "Ödev5\Ödev5.csproj", "{A184C67D-8AF9-4F0E-B78A-EA05DC82E274}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ödev6", "Ödev6\Ödev6.csproj", "{271C96F7-982E-4C18-ADC2-E303511015B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A184C67D-8AF9-4F0E-B78A-EA05DC82E274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A184C67D-8AF9-4F0E-B78A-EA05DC82E274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A184C67D-8AF9-4F0E-B78A-EA05DC82E274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271C96F7-982E-4C18-ADC2-E303511015B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271C96F7-982E-4C18-ADC2-E303511015B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271C96F7-982E-4C18-ADC2-E303511015B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271C96F7-982E-4C18-ADC2-E303511015B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
