@@ -1,11 +1,22 @@
-﻿ // Declare a variable named 'inputString' to hold our input.
-String inputString; 
-        
-// Read a full line of input from stdin (cin) and save it to our variable, input_string.
-inputString = Console.ReadLine(); 
-        
-// Print a string literal saying "Hello, World." to stdout using cout.
-Console.WriteLine("Hello, World.");
-        
-// TODO: Write a line of code here that prints the contents of input_string to stdout.
-Console.WriteLine(inputString);
+﻿
+Metotlar ornek = new Metotlar();
+int a =4;
+int b =5;
+Console.WriteLine("Bir Arttır Topla metodundan dönen değer:"+ornek.birarttirTopla(a,b));
+Console.WriteLine("topla 1 metodundan sonra Güncel Değişkenlerin değerleri,a="+a+" b="+b);
+Console.WriteLine("Topla2 metodundan dönen değer:"+ornek.birarttirTopla2(ref a,ref b));
+Console.WriteLine("tpola 2 metodundan sonra Güncel Değişkenlerin değerleri,a="+a+" b="+b);
+
+class Metotlar {
+    public int birarttirTopla(int deger1, int deger2){
+    deger1++;
+    deger2++;
+    return deger1 + deger2;
+    }
+    public int birarttirTopla2(ref int deger1, ref int deger2)
+    {
+    deger1++;
+    deger2++;
+    return deger1 + deger2;
+    }
+}
